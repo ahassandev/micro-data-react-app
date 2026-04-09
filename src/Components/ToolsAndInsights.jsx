@@ -37,7 +37,7 @@ const ToolsAndInsights = () => {
           {/* Card 1 */}
           <div className="border border-gray-100 p-10 hover:shadow-xl hover:z-10 relative bg-white transition-shadow h-full">
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg relative top-1">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center rounded-lg relative top-1">
                  <SiGoogleads className="w-8 h-8" />
               </div>
               <div>
@@ -52,7 +52,7 @@ const ToolsAndInsights = () => {
           {/* Card 2 */}
           <div className="border border-gray-100 p-10 hover:shadow-xl hover:z-10 relative bg-white transition-shadow h-full">
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg relative top-1">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center rounded-lg relative top-1">
                 <FaFacebook className="w-9 h-9 text-[#1877F2]" />
               </div>
               <div>
@@ -67,7 +67,7 @@ const ToolsAndInsights = () => {
           {/* Card 3 */}
           <div className="border border-gray-100 p-10 hover:shadow-xl hover:z-10 relative bg-white transition-shadow h-full">
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg relative top-1">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center rounded-lg relative top-1">
                 <SiTiktok className="w-8 h-8 text-black" />
               </div>
               <div>
@@ -82,7 +82,7 @@ const ToolsAndInsights = () => {
           {/* Card 4 */}
           <div className="border border-gray-100 p-10 hover:shadow-xl hover:z-10 relative bg-white transition-shadow h-full">
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg relative top-1">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center rounded-lg relative top-1">
                 <FaLinkedin className="w-9 h-9 text-[#0A66C2]" />
               </div>
               <div>
@@ -97,7 +97,7 @@ const ToolsAndInsights = () => {
           {/* Card 5 */}
           <div className="border border-gray-100 p-10 hover:shadow-xl hover:z-10 relative bg-white transition-shadow h-full">
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg relative top-1">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center rounded-lg relative top-1">
                 <FaMicrosoft className="w-8 h-8" />
               </div>
               <div>
@@ -112,7 +112,7 @@ const ToolsAndInsights = () => {
           {/* Card 6 */}
           <div className="border border-gray-100 p-10 hover:shadow-xl hover:z-10 relative bg-white transition-shadow h-full">
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg relative top-1">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center rounded-lg relative top-1">
                 <SiGoogleanalytics className="w-8 h-8 text-[#E37400]" />
               </div>
               <div>

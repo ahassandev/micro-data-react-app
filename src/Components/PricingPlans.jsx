@@ -115,7 +115,7 @@ const PricingPlans = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="w-[52px] h-[52px] bg-white rounded-full flex items-center justify-center border-[4px] border-[#1f2821] overflow-hidden shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+              <div className="w-[52px] h-[52px] bg-white rounded-full flex items-center justify-center border-4 border-[#1f2821] overflow-hidden shadow-[0_0_15px_rgba(0,0,0,0.2)]">
                 <div className="text-white bg-blue-100 p-2 m-1 border-dashed border border-blue-200">
                    <Lightbulb className="w-5 h-5 fill-cyan-300 text-yellow-400" />
                 </div>
@@ -145,7 +145,7 @@ const PricingPlans = () => {
                     <span className="text-gray-300 text-[14px] whitespace-nowrap">{card.pages}</span>
                   </div>
 
-                  <ul className="space-y-[18px] mb-12 flex-grow">
+                  <ul className="space-y-[18px] mb-12 grow">
                     {card.features.map((feat, fIdx) => (
                       <li key={fIdx} className="flex justify-between items-center text-sm">
                         <span className="text-gray-300 text-[13.5px]">{feat.name}</span>
