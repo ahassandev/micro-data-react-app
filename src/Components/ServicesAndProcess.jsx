@@ -22,62 +22,244 @@ const serviceCategories = [
         desc1: "Social media is more than just posting. We create communities around your brand that drive engagement and loyalty.",
         desc2: "We specialize in crafting campaigns tailored to individual platforms."
       },
-      { id: "ppc", name: "Pay Per Click Management (PPC)" },
-      { id: "google-ads", name: "Google & Meta Ads Campaigns" },
-      { id: "ema", name: "Email Marketing Automation (EMA)" },
-      { id: "gmb", name: "Google My Business Optimization" },
-      { id: "cro", name: "Conversion Rate Optimization (CRO)" },
+      { 
+        id: "ppc", 
+        name: "Pay Per Click Management (PPC)",
+        title: "PPC Management",
+        subtitle: "Targeted Advertising for Instant Results",
+        desc1: "Drive immediate traffic and high-quality leads with data-driven PPC campaigns that maximize your marketing budget.",
+        desc2: "Our expert-led approach focused on ROI ensures your ads reach the right audience at the right time."
+      },
+      { 
+        id: "google-ads", 
+        name: "Google & Meta Ads Campaigns",
+        title: "Google & Meta Ads",
+        subtitle: "Scale Your Reach Globally",
+        desc1: "Reach your ideal customers across the world's largest advertising platforms with professionally managed campaigns.",
+        desc2: "We optimize your ad spend across Google and Meta to ensure maximum visibility and conversion rates."
+      },
+      { 
+        id: "ema", 
+        name: "Email Marketing Automation (EMA)",
+        title: "Email Marketing Automation",
+        subtitle: "Nurture Leads Effectively",
+        desc1: "Automate your customer journey with personalized email campaigns that keep your brand top-of-mind and drive repeat business.",
+        desc2: "From newsletter setup to advanced automated workflows, we help you build stronger relationships with your subscribers."
+      },
+      { 
+        id: "gmb", 
+        name: "Google My Business Optimization",
+        title: "GMB Optimization",
+        subtitle: "Dominate Local Search Results",
+        desc1: "Optimize your local presence to attract more nearby customers and improve your ranking on Google Maps and local search.",
+        desc2: "We help you manage your business profile, respond to reviews, and showcase your services to your local community."
+      },
+      { 
+        id: "cro", 
+        name: "Conversion Rate Optimization (CRO)",
+        title: "Conversion Rate Optimization",
+        subtitle: "Turn More Visitors into Customers",
+        desc1: "Optimize your website's user experience and conversion paths to maximize the value of every single visitor.",
+        desc2: "Through data analysis and A/B testing, we identify and remove friction from your sales funnel."
+      },
     ]
   },
   { 
     id: "web-dev", 
     name: "Website Development Services", 
     subCategories: [
-      { id: "custom-web", name: "Custom Website Development" },
-      { id: "ecommerce", name: "E-Commerce Solutions" },
-      { id: "cms", name: "CMS Development" },
-      { id: "frontend", name: "Frontend Development" },
-      { id: "backend", name: "Backend Development" }
+      { 
+        id: "custom-web", 
+        name: "Custom Website Development",
+        title: "Custom Web Solutions",
+        subtitle: "Your Unique Vision, Digitally Realized",
+        desc1: "We build tailor-made websites from the ground up, ensuring they reflect your brand identity and meet your unique business goals.",
+        desc2: "Our custom solutions are designed for performance, security, and scalability from day one."
+      },
+      { 
+        id: "ecommerce", 
+        name: "E-Commerce Solutions",
+        title: "E-Commerce Development",
+        subtitle: "Seamless Online Shopping Experiences",
+        desc1: "Empower your retail business with powerful, secure, and user-friendly e-commerce platforms that drive sales.",
+        desc2: "We specialize in building online stores that provide a frictionless shopping experience for your customers."
+      },
+      { 
+        id: "cms", 
+        name: "CMS Development",
+        title: "CMS Solutions",
+        subtitle: "Manage Content with Full Flexibility",
+        desc1: "Get complete control over your website updates with easy-to-use and highly scalable Content Management Systems.",
+        desc2: "We build and customize CMS platforms like WordPress and Headless solutions tailored to your workflow."
+      },
+      { 
+        id: "frontend", 
+        name: "Frontend Development",
+        title: "Frontend Engineering",
+        subtitle: "Engaging and Stunning Interfaces",
+        desc1: "Bring your designs to life with high-performance, responsive, and visually beautiful frontend development using modern frameworks.",
+        desc2: "We focus on pixel-perfect implementation and smooth interactions for an unbeatable user experience."
+      },
+      { 
+        id: "backend", 
+        name: "Backend Development",
+        title: "Backend Infrastructure",
+        subtitle: "Robust and Scalable Core Systems",
+        desc1: "Ensure your application's stability and speed with secure and powerful backend architecture designed for heavy loads.",
+        desc2: "We build reliable APIs and database structures that power your digital business without compromise."
+      }
     ] 
   },
   { 
     id: "mobile-app", 
     name: "Mobile Application Development", 
     subCategories: [
-      { id: "ios", name: "iOS App Development" },
-      { id: "android", name: "Android App Development" },
-      { id: "cross-platform", name: "Cross-Platform Apps" },
-      { id: "app-maintenance", name: "App Maintenance & Support" }
+      { 
+        id: "ios", 
+        name: "iOS App Development",
+        title: "iOS Development",
+        subtitle: "Premium Experiences for Apple Users",
+        desc1: "Develop high-quality, native iOS applications designed for peak performance and perfect integration with the Apple ecosystem.",
+        desc2: "Our iOS apps are built to provide a premium feel and exceed user expectations in the App Store."
+      },
+      { 
+        id: "android", 
+        name: "Android App Development",
+        title: "Android Development",
+        subtitle: "Reach Millions with Powerful Apps",
+        desc1: "Build versatile and high-performing Android applications that run smoothly across the diverse landscape of Android devices.",
+        desc2: "We focus on creating robust apps that leverage the full potential of the Android platform."
+      },
+      { 
+        id: "cross-platform", 
+        name: "Cross-Platform Apps",
+        title: "Cross-Platform Development",
+        subtitle: "Efficiency Without Compromising Quality",
+        desc1: "Develop powerful applications for both iOS and Android from a single codebase, significantly reducing your time-to-market.",
+        desc2: "Using technologies like React Native or Flutter, we deliver near-native performance at a fraction of the cost."
+      },
+      { 
+        id: "app-maintenance", 
+        name: "App Maintenance & Support",
+        title: "App Support Services",
+        subtitle: "Continuous Performance & Reliability",
+        desc1: "Ensure your mobile apps stay up-to-date, secure, and performant with our dedicated post-launch maintenance services.",
+        desc2: "We handle updates, bug fixes, and feature enhancements to keep your users engaged and satisfied."
+      }
     ] 
   },
   { 
     id: "content", 
     name: "Content Writing Services", 
     subCategories: [
-      { id: "seo-copywriting", name: "SEO Copywriting" },
-      { id: "blog-writing", name: "Blog & Article Writing" },
-      { id: "web-content", name: "Website Content" },
-      { id: "social-content", name: "Social Media Content" }
+      { 
+        id: "seo-copywriting", 
+        name: "SEO Copywriting",
+        title: "SEO Copywriting",
+        subtitle: "Content that Ranks and Converts",
+        desc1: "Create high-impact copy that boosts your search engine rankings while effectively engaging and persuading your target audience.",
+        desc2: "Our writers combine strategic keyword integration with compelling storytelling to drive results."
+      },
+      { 
+        id: "blog-writing", 
+        name: "Blog & Article Writing",
+        title: "Blog & Article Creation",
+        subtitle: "Establish Authority and Trust",
+        desc1: "Build your brand as an industry leader with informative, engaging, and high-quality blog content that provides real value.",
+        desc2: "Consistent, high-quality articles help improve your SEO and keep your audience coming back for more."
+      },
+      { 
+        id: "web-content", 
+        name: "Website Content",
+        title: "Website Messaging",
+        subtitle: "Clear and Compelling Brand Story",
+        desc1: "Ensure your website communicates your value proposition clearly and effectively with professional content writing.",
+        desc2: "We craft every word to guide your visitors towards action and perfectly reflect your brand voice."
+      },
+      { 
+        id: "social-content", 
+        name: "Social Media Content",
+        title: "Social Engagement",
+        subtitle: "Connect with Your Community",
+        desc1: "Drive engagement and build brand loyalty across social platforms with creative and platform-specific content strategies.",
+        desc2: "From catchy captions to viral campaign ideas, we help you stand out in the busy social feed."
+      }
     ] 
   },
   { 
     id: "support", 
     name: "Support & Maintenance", 
     subCategories: [
-      { id: "bug-fixes", name: "Bug Fixes & Updates" },
-      { id: "performance", name: "Performance Optimization" },
-      { id: "security", name: "Security Audits" },
-      { id: "server", name: "Server Administration" }
+      { 
+        id: "bug-fixes", 
+        name: "Bug Fixes & Updates",
+        title: "Technical Support",
+        subtitle: "Keep Your Operations Smooth",
+        desc1: "Identify and resolve technical issues rapidly to ensure your digital products always perform at their absolute best.",
+        desc2: "We provide proactive monitoring and quick fixes to minimize downtime and protect your revenue."
+      },
+      { 
+        id: "performance", 
+        name: "Performance Optimization",
+        title: "Speed Improvement",
+        subtitle: "Maximize Efficiency and UX",
+        desc1: "Optimize your systems for peak performance, ensuring lightning-fast load times and a smooth user experience across all devices.",
+        desc2: "A faster site means better SEO rankings and higher conversion rates for your business."
+      },
+      { 
+        id: "security", 
+        name: "Security Audits",
+        title: "Digital Asset Protection",
+        subtitle: "Ensure Data Safety and Compliance",
+        desc1: "Protect your data and applications with comprehensive security audits and proactive protection against modern threats.",
+        desc2: "We help you identify vulnerabilities before they are exploited, keeping your business and customers safe."
+      },
+      { 
+        id: "server", 
+        name: "Server Administration",
+        title: "Infrastructure Management",
+        subtitle: "Reliable and Secure Environments",
+        desc1: "Maintain a stable, high-performance server environment designed to support your growing digital presence seamlessly.",
+        desc2: "We handle server configuration, updates, and monitoring so you can focus on running your business."
+      }
     ] 
   },
   { 
     id: "ui-ux", 
     name: "UI UX Design Services", 
     subCategories: [
-      { id: "wireframing", name: "Wireframing & Prototyping" },
-      { id: "ui-design", name: "User Interface Design (UI)" },
-      { id: "ux-research", name: "UX Research & Strategy" },
-      { id: "responsive", name: "Responsive Web Design" }
+      { 
+        id: "wireframing", 
+        name: "Wireframing & Prototyping",
+        title: "Digital Blueprinting",
+        subtitle: "Map Out Your Product Success",
+        desc1: "Create a clear roadmap for your digital product with detailed wireframes and high-fidelity interactive prototypes.",
+        desc2: "We help you visualize the user journey early, saving time and resources during the development phase."
+      },
+      { 
+        id: "ui-design", 
+        name: "User Interface Design (UI)",
+        title: "Stunning UI Design",
+        subtitle: "Visual Excellence for Your Brand",
+        desc1: "Design beautiful and intuitive user interfaces that capture your brand's essence and provide a delightful user experience.",
+        desc2: "Our UI designs are focused on visual hierarchy, accessibility, and modern aesthetics."
+      },
+      { 
+        id: "ux-research", 
+        name: "UX Research & Strategy",
+        title: "In-Depth User Research",
+        subtitle: "Data-Driven Design Decisions",
+        desc1: "Understand your users' needs and pain points deeply to build products that solve real problems and deliver true value.",
+        desc2: "We use various research methodologies to ensure your product strategy is grounded in actual user behavior."
+      },
+      { 
+        id: "responsive", 
+        name: "Responsive Web Design",
+        title: "Adaptable Design",
+        subtitle: "Flawless Experience on Every Device",
+        desc1: "Ensure your website looks and functions perfectly across all screen sizes, from mobile phones to high-resolution desktops.",
+        desc2: "We implement liquid layouts and smart breakpoints for a seamless experience everywhere."
+      }
     ] 
   },
 ];
@@ -138,7 +320,7 @@ const ServicesAndProcess = () => {
               <span className="block w-12 h-px bg-gray-500"></span>
               <h3 className="text-gray-700 text-lg md:text-[20px]">Our Services</h3>
             </div>
-            <h2 className="text-4xl md:text-[46px] font-bold text-gray-900 leading-[1.25]">
+            <h2 className="text-3xl md:text-[40px] font-bold text-gray-900 leading-[1.25]">
               Your business growth<br />
               starts here with all tools in<br />
               one spot.
@@ -277,7 +459,7 @@ const ServicesAndProcess = () => {
         </div>
 
         {/* Process Cards Grid */}
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-12 xl:gap-8 mb-28">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-12 xl:gap-8">
           {processSteps.map((step) => (
             <div key={step.id} className="relative bg-white py-10 px-8 border border-gray-100 shadow-[0_2px_20px_-5px_rgba(0,0,0,0.05)] h-full">
               {/* Overlapping Number Circle */}
@@ -294,22 +476,6 @@ const ServicesAndProcess = () => {
             </div>
           ))}
         </div>
-
-        {/* Footer Tabs / Separator */}
-        <div className="border-b-[3px] border-gray-100">
-          <div className="flex flex-wrap items-center gap-8 md:gap-[100px]">
-            <button className="py-6 text-xl md:text-[22px] font-bold text-gray-900 border-b-[4px] border-gray-900 relative top-[3px]">
-              Website Development Pricing
-            </button>
-            <button className="py-6 text-xl md:text-[22px] font-bold text-gray-400 hover:text-gray-600 transition-colors cursor-pointer relative top-[3px]">
-              Digital Marketing Pricing
-            </button>
-            <button className="py-6 text-xl md:text-[22px] font-bold text-gray-400 hover:text-gray-600 transition-colors cursor-pointer relative top-[3px]">
-              Recommended Add-Ons
-            </button>
-          </div>
-        </div>
-
       </div>
     </section>
   )
